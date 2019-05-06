@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97815DD0228089AB00ACE0DB /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 97F64466228081D3003A8804 /* Assets.xcassets */; };
 		97F6445D228081D3003A8804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6445C228081D3003A8804 /* AppDelegate.swift */; };
-		97F6445F228081D3003A8804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6445E228081D3003A8804 /* ViewController.swift */; };
-		97F64462228081D3003A8804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F64460228081D3003A8804 /* Main.storyboard */; };
 		97F64465228081D3003A8804 /* Checklist_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97F64463228081D3003A8804 /* Checklist_App.xcdatamodeld */; };
-		97F64467228081D3003A8804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F64466228081D3003A8804 /* Assets.xcassets */; };
-		97F6446A228081D3003A8804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F64468228081D3003A8804 /* LaunchScreen.storyboard */; };
+		97F6448122808206003A8804 /* volunteerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447322808206003A8804 /* volunteerTab.swift */; };
+		97F6448222808206003A8804 /* hubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447522808206003A8804 /* hubTableViewCell.swift */; };
+		97F6448322808206003A8804 /* missedWeeksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447622808206003A8804 /* missedWeeksCell.swift */; };
+		97F6448422808206003A8804 /* missedQuestionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447722808206003A8804 /* missedQuestionsCell.swift */; };
+		97F6448522808206003A8804 /* averageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447822808206003A8804 /* averageTableViewCell.swift */; };
+		97F6448622808206003A8804 /* coachTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447922808206003A8804 /* coachTableViewCell.swift */; };
+		97F6448722808206003A8804 /* coachHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447A22808206003A8804 /* coachHub.swift */; };
+		97F6448822808206003A8804 /* rootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447B22808206003A8804 /* rootController.swift */; };
+		97F6448922808206003A8804 /* weeklyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447C22808206003A8804 /* weeklyData.swift */; };
+		97F6448A22808206003A8804 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447D22808206003A8804 /* functions.swift */; };
+		97F6448B22808206003A8804 /* volunteerDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447E22808206003A8804 /* volunteerDataView.swift */; };
+		97F6448C22808206003A8804 /* questionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6447F22808206003A8804 /* questionController.swift */; };
+		97F6448F22808287003A8804 /* Volunteer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6448D22808287003A8804 /* Volunteer+CoreDataClass.swift */; };
+		97F6449022808287003A8804 /* Volunteer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6448E22808287003A8804 /* Volunteer+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		97F64459228081D3003A8804 /* Checklist App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Checklist App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F6445C228081D3003A8804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97F6445E228081D3003A8804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97F64461228081D3003A8804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97F64464228081D3003A8804 /* Checklist_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Checklist_App.xcdatamodel; sourceTree = "<group>"; };
 		97F64466228081D3003A8804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97F64469228081D3003A8804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97F6446B228081D3003A8804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F6447122808206003A8804 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		97F6447322808206003A8804 /* volunteerTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = volunteerTab.swift; sourceTree = "<group>"; };
+		97F6447522808206003A8804 /* hubTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hubTableViewCell.swift; sourceTree = "<group>"; };
+		97F6447622808206003A8804 /* missedWeeksCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = missedWeeksCell.swift; sourceTree = "<group>"; };
+		97F6447722808206003A8804 /* missedQuestionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = missedQuestionsCell.swift; sourceTree = "<group>"; };
+		97F6447822808206003A8804 /* averageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = averageTableViewCell.swift; sourceTree = "<group>"; };
+		97F6447922808206003A8804 /* coachTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coachTableViewCell.swift; sourceTree = "<group>"; };
+		97F6447A22808206003A8804 /* coachHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coachHub.swift; sourceTree = "<group>"; };
+		97F6447B22808206003A8804 /* rootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rootController.swift; sourceTree = "<group>"; };
+		97F6447C22808206003A8804 /* weeklyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weeklyData.swift; sourceTree = "<group>"; };
+		97F6447D22808206003A8804 /* functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		97F6447E22808206003A8804 /* volunteerDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = volunteerDataView.swift; sourceTree = "<group>"; };
+		97F6447F22808206003A8804 /* questionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionController.swift; sourceTree = "<group>"; };
+		97F6448D22808287003A8804 /* Volunteer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Volunteer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		97F6448E22808287003A8804 /* Volunteer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Volunteer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,44 @@
 		97F6445B228081D3003A8804 /* Checklist App */ = {
 			isa = PBXGroup;
 			children = (
+				97F6448D22808287003A8804 /* Volunteer+CoreDataClass.swift */,
+				97F6448E22808287003A8804 /* Volunteer+CoreDataProperties.swift */,
 				97F6445C228081D3003A8804 /* AppDelegate.swift */,
-				97F6445E228081D3003A8804 /* ViewController.swift */,
-				97F64460228081D3003A8804 /* Main.storyboard */,
+				97F6447222808206003A8804 /* View Controllers */,
+				97F6447122808206003A8804 /* Main.storyboard */,
 				97F64466228081D3003A8804 /* Assets.xcassets */,
 				97F64468228081D3003A8804 /* LaunchScreen.storyboard */,
 				97F6446B228081D3003A8804 /* Info.plist */,
 				97F64463228081D3003A8804 /* Checklist_App.xcdatamodeld */,
 			);
 			path = "Checklist App";
+			sourceTree = "<group>";
+		};
+		97F6447222808206003A8804 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				97F6447422808206003A8804 /* Cells */,
+				97F6447D22808206003A8804 /* functions.swift */,
+				97F6447322808206003A8804 /* volunteerTab.swift */,
+				97F6447F22808206003A8804 /* questionController.swift */,
+				97F6447B22808206003A8804 /* rootController.swift */,
+				97F6447C22808206003A8804 /* weeklyData.swift */,
+				97F6447A22808206003A8804 /* coachHub.swift */,
+				97F6447E22808206003A8804 /* volunteerDataView.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		97F6447422808206003A8804 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				97F6447522808206003A8804 /* hubTableViewCell.swift */,
+				97F6447622808206003A8804 /* missedWeeksCell.swift */,
+				97F6447722808206003A8804 /* missedQuestionsCell.swift */,
+				97F6447822808206003A8804 /* averageTableViewCell.swift */,
+				97F6447922808206003A8804 /* coachTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +178,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F6446A228081D3003A8804 /* LaunchScreen.storyboard in Resources */,
-				97F64467228081D3003A8804 /* Assets.xcassets in Resources */,
-				97F64462228081D3003A8804 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +188,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F6448722808206003A8804 /* coachHub.swift in Sources */,
+				97F6448322808206003A8804 /* missedWeeksCell.swift in Sources */,
+				97F6448F22808287003A8804 /* Volunteer+CoreDataClass.swift in Sources */,
+				97F6448122808206003A8804 /* volunteerTab.swift in Sources */,
+				97F6448822808206003A8804 /* rootController.swift in Sources */,
+				97F6448A22808206003A8804 /* functions.swift in Sources */,
+				97F6448422808206003A8804 /* missedQuestionsCell.swift in Sources */,
+				97F6448522808206003A8804 /* averageTableViewCell.swift in Sources */,
+				97F6448622808206003A8804 /* coachTableViewCell.swift in Sources */,
 				97F64465228081D3003A8804 /* Checklist_App.xcdatamodeld in Sources */,
-				97F6445F228081D3003A8804 /* ViewController.swift in Sources */,
+				97F6448222808206003A8804 /* hubTableViewCell.swift in Sources */,
+				97F6448B22808206003A8804 /* volunteerDataView.swift in Sources */,
+				97F6449022808287003A8804 /* Volunteer+CoreDataProperties.swift in Sources */,
+				97F6448922808206003A8804 /* weeklyData.swift in Sources */,
+				97F6448C22808206003A8804 /* questionController.swift in Sources */,
 				97F6445D228081D3003A8804 /* AppDelegate.swift in Sources */,
+				97815DD0228089AB00ACE0DB /* Assets.xcassets in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		97F64460228081D3003A8804 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97F64461228081D3003A8804 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		97F64468228081D3003A8804 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
